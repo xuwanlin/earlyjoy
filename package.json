@@ -19,7 +19,6 @@
   "scripts": {
     "dev-node": "cross-env NODE_ENV=develop nodemon app.js",
     "dev-node-base": "cross-env NODE_ENV=develop node app.js",
-
     "start-node": "cross-env NODE_ENV=production node app.js",
     "publish": "pm2 startOrRestart pm2.prod.config.js",
     "p": "pm2 startOrRestart ecosystem.config.js"
